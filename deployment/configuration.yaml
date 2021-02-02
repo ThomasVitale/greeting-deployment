@@ -45,7 +45,7 @@ spec:
     spec:
       containers:
       - name: greeting-service
-        image: arcticgreetings/greeting-service:1.0.0
+        image: arcticgreetings/greeting-service:0.0.1-SNAPSHOT
         ports:
         - name: node-port
           containerPort: 8080
